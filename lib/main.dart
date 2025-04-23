@@ -102,7 +102,7 @@ class _IoTScreenState extends State<IoTScreen> {
 
  void _sendLocationToWhatsApp() async {
     final String googleMapsUrl = "https://www.google.com/maps/search/?api=1&query=$latitude,$longitude";
-    final String whatsappUrl = "http://wa.me/082157634013?text=${Uri.encodeFull('Here is my location: $googleMapsUrl')}";
+    final String whatsappUrl = "http://wa.me/{emergency number}?text=${Uri.encodeFull('Here is my location: $googleMapsUrl')}";
 
     if (await canLaunchUrl(Uri.parse(whatsappUrl))) {
       await launchUrl(Uri.parse(whatsappUrl));
