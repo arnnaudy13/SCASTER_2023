@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "426926302631",
+    "firebase_url": "https://scaster1-default-rtdb.firebaseio.com",
+    "project_id": "scaster1",
+    "storage_bucket": "scaster1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:426926302631:android:d30675181f009116d00282",
+        "android_client_info": {
+          "package_name": "com.example.bismillah_pasti_bisa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbJzyL2DP2Z0NYwUCuWoH4yiZEPCbt6Hg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
